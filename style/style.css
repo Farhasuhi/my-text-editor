@@ -1,0 +1,31 @@
+.input-size{
+    width: 40px;
+    height: 35px;
+}
+.icon i,.icon input{
+    margin-left: 10px;
+}
+
+.text-editor{
+    width: 75% ;
+    margin: 0 auto;
+    height: 600px;
+    margin: 20px auto;
+    padding: 50px;
+}
+textarea{
+    width: 80%;
+    height: 350px;
+    padding: 20px;
+}
+
+@media only screen and (max-width:574px) {
+    textarea{
+        width: 100%;
+        
+    }
+    .text-editor{
+        width: 100%;
+        padding: 10px;
+    }
+}

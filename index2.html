@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/220853aae8.js" crossorigin="anonymous"></script>
+    <title>Text editor</title>
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <section class="bg-danger-subtle w-75 text-editor mx-auto">
+            <h1 class="text-center mb-5">Text editor</h1>
+            <div class="text-center">
+                  <div class="d-flex justify-content-between mb-3 w-75 mx-auto">
+                    <div class="icon">
+                        <i id="bold" class="fa-solid fa-bold"></i>
+                        <i class="fa-solid fa-italic"></i>
+                        <i class="fa-solid fa-underline"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-align-left"></i>
+                        <i class="fa-solid fa-align-center"></i>
+                        <i class="fa-solid fa-align-right"></i>
+                        <i class="fa-solid fa-align-justify"></i>
+                    </div>
+                    <div class="icon">
+                        <input class="input-size" type="number">    
+                        <input type="color">
+                    </div>
+                  </div> 
+                  <div>
+                    <textarea name="" id="textarea" cols="120" rows="10"></textarea>
+                  </div> 
+            </div>
+            
+        </section>
+    </main>
+
+    <script src="js/text-editor.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
